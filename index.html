@@ -1,90 +1,106 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-  <title>冠宥's Website</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-	@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
-	
-	* {
-		font-family: 'Noto Sans TC', sans-serif;
-	}
-	
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-	  position: absolute;
-	  bottom: 0;
-	  width: 100%;
-    }
-  </style>
+	<title>冠宥's Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		@font-face {
+			font-family: 'Noto Sans TC';
+			src: url(fonts/NotoSansCJKtc-Regular.otf);
+		}
+
+		* {
+			font-family: 'Noto Sans TC', sans-serif;
+		}
+
+		/* Remove the navbar's default margin-bottom and rounded borders */
+		.navbar {
+			margin-bottom: 0;
+			border-radius: 0;
+		}
+
+		/* Add a gray background color and some padding to the footer */
+		footer {
+			background-color: #f2f2f2;
+			padding: 25px;
+			bottom: 0;
+		}
+	</style>
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">冠宥's</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="https://github.com/hloyhunter" target="_blank">我的GitHub<span class="glyphicon glyphicon-new-window"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">冠宥's</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="index.html">首頁</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>冠宥的個人網站</h1>      
-    <p>很弱，什麼都沒有 XD</p>
-  </div>
-</div>
-  
-<div class="container-fluid bg-3 text-center">    
-  <h3>一些東西...</h3><br>
-  <!--
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-  -->
-</div><br>
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>冠宥的個人網站</h1>
+			<p>很弱，什麼都沒有 XD</p>
+		</div>
+	</div>
 
-<footer class="container-fluid text-right">
-  <p>Joe Wen@2016</p>
-</footer>
+	<div class="container-fluid bg-3 text-center">
+		<h3>一些東西...</h3>
+		<br>
+		<div class="row">
+			<div class="col-sm-3">
+				<p>我的GitHub</p>
+				<a href="https://github.com/hloyhunter" target="_blank">
+					<img src="images/GitHub_Logo.png" class="img-responsive" style="width: 100%;" alt="GitHub">
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<p>我的Visual Studio Online</p>
+				<a href="https://hloyhunter.visualstudio.com/" target="_blank">
+					<img src="images/VSOnline.jpg" class="img-responsive" style="width: 100%; margin: 0 auto" alt="VSOline">
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<p>我的PSN Profile</p>
+				<a href="http://psnprofiles.com/hloyhunter99" target="_blank">
+					<img src="http://card.psnprofiles.com/1/hloyhunter99.png" class="img-responsive" style="width:100%; margin: 0 auto" alt="PSN Profile">
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<p>我的...</p>
+				<img src="" class="img-responsive" style="width:100%" alt="Image">
+			</div>
+		</div>
+	</div>
+	<br>
 
+	<footer class="container-fluid text-right">
+		<p>Joe Wen@2016</p>
+	</footer>
+
+	<!--<script>
+		$('.img-responsive').css('margin-top', function () {
+			var divHeight = parseInt($(this).closest('.row').css('height').replace('px', ''));
+			var imgHeight = parseInt($(this).css('height').replace('px', ''));
+
+			return (divHeight / 2) - (imgHeight / 2) + 'px';
+		});
+	</script>-->
 </body>
 </html>
