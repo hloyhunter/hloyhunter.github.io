@@ -97,11 +97,13 @@
 	</footer>
 
 	<script>
-		$('.img-responsive').css('margin-top', function () {
-			var divHeight = parseInt($(this).closest('.row').css('height').replace('px', ''));
-			var imgHeight = parseInt($(this).css('height').replace('px', ''));
+		$(function () {
+			$('.img-responsive').css('margin-top', function () {
+				var divHeight = parseInt($(this).closest('.row').css('height').replace('px', ''));
+				var imgHeight = parseInt($(this).css('height').replace('px', ''));
 
-			return (divHeight / 2) - (imgHeight / 2) + 'px';
+				return (divHeight / 2) - (imgHeight / 2) + 'px';
+			});
 		});
 	</script>
 </body>
